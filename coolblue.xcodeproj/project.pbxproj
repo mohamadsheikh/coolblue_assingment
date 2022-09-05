@@ -10,11 +10,10 @@
 		D15CBDB328C5E41F00FEB728 /* coolblueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDB228C5E41F00FEB728 /* coolblueApp.swift */; };
 		D15CBDB728C5E42100FEB728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15CBDB628C5E42100FEB728 /* Assets.xcassets */; };
 		D15CBDBA28C5E42100FEB728 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15CBDB928C5E42100FEB728 /* Preview Assets.xcassets */; };
-		D15CBDC428C5E42100FEB728 /* coolblueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDC328C5E42100FEB728 /* coolblueTests.swift */; };
 		D15CBDDD28C5E46F00FEB728 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDDC28C5E46F00FEB728 /* Product.swift */; };
 		D15CBDDF28C5E48E00FEB728 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDDE28C5E48E00FEB728 /* Review.swift */; };
 		D15CBDE128C5E4A500FEB728 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDE028C5E4A500FEB728 /* ProductListModel.swift */; };
-		D15CBDE428C5E4F800FEB728 /* ModelsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDE328C5E4F800FEB728 /* ModelsTest.swift */; };
+		D15CBDE428C5E4F800FEB728 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDE328C5E4F800FEB728 /* ModelsTests.swift */; };
 		D15CBDE628C5E68B00FEB728 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDE528C5E68B00FEB728 /* ProductList.swift */; };
 		D15CBDE828C5E6B200FEB728 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDE728C5E6B200FEB728 /* ProductRow.swift */; };
 		D15CBDEC28C5E72100FEB728 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDEB28C5E72100FEB728 /* ProductItem.swift */; };
@@ -26,6 +25,8 @@
 		D15CBDFC28C5EB8300FEB728 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDFB28C5EB8300FEB728 /* NetworkService.swift */; };
 		D15CBDFE28C5EB9C00FEB728 /* NetworkImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDFD28C5EB9C00FEB728 /* NetworkImageCache.swift */; };
 		D15CBE0128C5EBF900FEB728 /* NetworkProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBE0028C5EBF900FEB728 /* NetworkProduct.swift */; };
+		D15CBE0428C5F72700FEB728 /* ProductListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBE0328C5F72700FEB728 /* ProductListViewModelTests.swift */; };
+		D15CBE0628C5F81D00FEB728 /* NetworkProductMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBE0528C5F81D00FEB728 /* NetworkProductMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +45,10 @@
 		D15CBDB628C5E42100FEB728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15CBDB928C5E42100FEB728 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D15CBDBF28C5E42100FEB728 /* coolblueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coolblueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D15CBDC328C5E42100FEB728 /* coolblueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolblueTests.swift; sourceTree = "<group>"; };
 		D15CBDDC28C5E46F00FEB728 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D15CBDDE28C5E48E00FEB728 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		D15CBDE028C5E4A500FEB728 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
-		D15CBDE328C5E4F800FEB728 /* ModelsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTest.swift; sourceTree = "<group>"; };
+		D15CBDE328C5E4F800FEB728 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
 		D15CBDE528C5E68B00FEB728 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		D15CBDE728C5E6B200FEB728 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		D15CBDEB28C5E72100FEB728 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
@@ -60,6 +60,8 @@
 		D15CBDFB28C5EB8300FEB728 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		D15CBDFD28C5EB9C00FEB728 /* NetworkImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageCache.swift; sourceTree = "<group>"; };
 		D15CBE0028C5EBF900FEB728 /* NetworkProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProduct.swift; sourceTree = "<group>"; };
+		D15CBE0328C5F72700FEB728 /* ProductListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModelTests.swift; sourceTree = "<group>"; };
+		D15CBE0528C5F81D00FEB728 /* NetworkProductMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProductMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				D15CBDB228C5E41F00FEB728 /* coolblueApp.swift */,
+				D15CBE0728C5F82700FEB728 /* Supporting Files */,
 				D15CBDE228C5E4C400FEB728 /* Model */,
 				D15CBDE928C5E6CD00FEB728 /* View */,
 				D15CBDED28C5E73F00FEB728 /* ViewModel */,
@@ -124,8 +127,8 @@
 		D15CBDC228C5E42100FEB728 /* coolblueTests */ = {
 			isa = PBXGroup;
 			children = (
-				D15CBDC328C5E42100FEB728 /* coolblueTests.swift */,
-				D15CBDE328C5E4F800FEB728 /* ModelsTest.swift */,
+				D15CBDE328C5E4F800FEB728 /* ModelsTests.swift */,
+				D15CBE0328C5F72700FEB728 /* ProductListViewModelTests.swift */,
 			);
 			path = coolblueTests;
 			sourceTree = "<group>";
@@ -185,6 +188,14 @@
 				D15CBE0028C5EBF900FEB728 /* NetworkProduct.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		D15CBE0728C5F82700FEB728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D15CBE0528C5F81D00FEB728 /* NetworkProductMock.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 				D15CBDE828C5E6B200FEB728 /* ProductRow.swift in Sources */,
 				D15CBDF328C5E82400FEB728 /* ReviewStar.swift in Sources */,
 				D15CBDEF28C5E7F900FEB728 /* DeliverTomorrow.swift in Sources */,
+				D15CBE0628C5F81D00FEB728 /* NetworkProductMock.swift in Sources */,
 				D15CBE0128C5EBF900FEB728 /* NetworkProduct.swift in Sources */,
 				D15CBDDF28C5E48E00FEB728 /* Review.swift in Sources */,
 				D15CBDFE28C5EB9C00FEB728 /* NetworkImageCache.swift in Sources */,
@@ -309,8 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15CBDC428C5E42100FEB728 /* coolblueTests.swift in Sources */,
-				D15CBDE428C5E4F800FEB728 /* ModelsTest.swift in Sources */,
+				D15CBDE428C5E4F800FEB728 /* ModelsTests.swift in Sources */,
+				D15CBE0428C5F72700FEB728 /* ProductListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 import XCTest
 @testable import coolblue
 
-class ModelsTest: XCTestCase {
+class ModelsTests: XCTestCase {
     
     func testReviewModel() {
         let jsonMap :[String:Any] = ["reviewSummary":["reviewAverage":9.3,"reviewCount":200]]
