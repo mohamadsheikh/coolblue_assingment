@@ -29,6 +29,15 @@ class ProductItem : ObservableObject, Identifiable {
     }
     
     func fetchImage() {
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+            guard let self = self, let imageURL = self.imageURL as? NSURL else {return}
+            
+            NetworkImageCache.shared.load(url: imageURL) { image in
+              if let img = image {
+                self.image = img
+              }
+            }
+        }
     }
 }
 extension ProductItem {

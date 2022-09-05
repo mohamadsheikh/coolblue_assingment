@@ -13,6 +13,8 @@ class ProductListViewModel: ObservableObject {
     
     @Published var isPresentError = false
         
+    private let repository : NetworkProduct
+    
     var hasMoreRows : Bool {
         dataSource.count > 0 && currentPage < pageCount
     }
@@ -25,8 +27,16 @@ class ProductListViewModel: ObservableObject {
     
     var pageCount = 1
     
+    init(repository: NetworkProduct = NetworkProduct()) {
+        self.repository = repository
+    }
+    
     func refreshAllData(searchTerm:String?=nil) {
-        
+        currentPage = 1
+        pageCount = 1
+        dataSource = []
+        self.searchTerm = searchTerm
+        repository.getProducts(searchTerm: searchTerm, pageNumber: currentPage,completion: completionHandler)
     }
     
 }
