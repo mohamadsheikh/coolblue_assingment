@@ -131,11 +131,9 @@
 		D15CBDE928C5E6CD00FEB728 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D15CBDF428C5E8C900FEB728 /* Helpers */,
 				D15CBDE528C5E68B00FEB728 /* ProductList.swift */,
 				D15CBDE728C5E6B200FEB728 /* ProductRow.swift */,
-				D15CBDEE28C5E7F900FEB728 /* DeliverTomorrow.swift */,
-				D15CBDF028C5E80C00FEB728 /* ReviewRating.swift */,
-				D15CBDF228C5E82300FEB728 /* ReviewStar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -146,6 +144,16 @@
 				D15CBDEB28C5E72100FEB728 /* ProductItem.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D15CBDF428C5E8C900FEB728 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D15CBDEE28C5E7F900FEB728 /* DeliverTomorrow.swift */,
+				D15CBDF028C5E80C00FEB728 /* ReviewRating.swift */,
+				D15CBDF228C5E82300FEB728 /* ReviewStar.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
