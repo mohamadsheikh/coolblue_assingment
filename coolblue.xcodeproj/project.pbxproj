@@ -22,6 +22,10 @@
 		D15CBDF128C5E80C00FEB728 /* ReviewRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDF028C5E80C00FEB728 /* ReviewRating.swift */; };
 		D15CBDF328C5E82400FEB728 /* ReviewStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDF228C5E82300FEB728 /* ReviewStar.swift */; };
 		D15CBDF828C5E95500FEB728 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDF728C5E95500FEB728 /* ProductListViewModel.swift */; };
+		D15CBDFA28C5EB6900FEB728 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDF928C5EB6900FEB728 /* NetworkClient.swift */; };
+		D15CBDFC28C5EB8300FEB728 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDFB28C5EB8300FEB728 /* NetworkService.swift */; };
+		D15CBDFE28C5EB9C00FEB728 /* NetworkImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDFD28C5EB9C00FEB728 /* NetworkImageCache.swift */; };
+		D15CBE0128C5EBF900FEB728 /* NetworkProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBE0028C5EBF900FEB728 /* NetworkProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		D15CBDF028C5E80C00FEB728 /* ReviewRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRating.swift; sourceTree = "<group>"; };
 		D15CBDF228C5E82300FEB728 /* ReviewStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStar.swift; sourceTree = "<group>"; };
 		D15CBDF728C5E95500FEB728 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		D15CBDF928C5EB6900FEB728 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		D15CBDFB28C5EB8300FEB728 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D15CBDFD28C5EB9C00FEB728 /* NetworkImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageCache.swift; sourceTree = "<group>"; };
+		D15CBE0028C5EBF900FEB728 /* NetworkProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 				D15CBDE228C5E4C400FEB728 /* Model */,
 				D15CBDE928C5E6CD00FEB728 /* View */,
 				D15CBDED28C5E73F00FEB728 /* ViewModel */,
+				D15CBE0228C5EC0300FEB728 /* Repository */,
+				D15CBDFF28C5EBDE00FEB728 /* NetworkLayer */,
 				D15CBDB628C5E42100FEB728 /* Assets.xcassets */,
 				D15CBDB828C5E42100FEB728 /* Preview Content */,
 			);
@@ -157,6 +167,24 @@
 				D15CBDF228C5E82300FEB728 /* ReviewStar.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D15CBDFF28C5EBDE00FEB728 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D15CBDFD28C5EB9C00FEB728 /* NetworkImageCache.swift */,
+				D15CBDF928C5EB6900FEB728 /* NetworkClient.swift */,
+				D15CBDFB28C5EB8300FEB728 /* NetworkService.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		D15CBE0228C5EC0300FEB728 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D15CBE0028C5EBF900FEB728 /* NetworkProduct.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +295,13 @@
 				D15CBDE828C5E6B200FEB728 /* ProductRow.swift in Sources */,
 				D15CBDF328C5E82400FEB728 /* ReviewStar.swift in Sources */,
 				D15CBDEF28C5E7F900FEB728 /* DeliverTomorrow.swift in Sources */,
+				D15CBE0128C5EBF900FEB728 /* NetworkProduct.swift in Sources */,
 				D15CBDDF28C5E48E00FEB728 /* Review.swift in Sources */,
+				D15CBDFE28C5EB9C00FEB728 /* NetworkImageCache.swift in Sources */,
 				D15CBDB328C5E41F00FEB728 /* coolblueApp.swift in Sources */,
 				D15CBDDD28C5E46F00FEB728 /* Product.swift in Sources */,
+				D15CBDFC28C5EB8300FEB728 /* NetworkService.swift in Sources */,
+				D15CBDFA28C5EB6900FEB728 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
