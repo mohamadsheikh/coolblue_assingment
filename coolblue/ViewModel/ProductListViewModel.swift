@@ -12,7 +12,7 @@ class ProductListViewModel: ObservableObject {
     @Published private(set) var dataSource : [ProductItem] = []
     
     @Published var isPresentError = false
-        
+    
     private let repository : NetworkProduct
     
     var hasMoreRows : Bool {
@@ -29,6 +29,13 @@ class ProductListViewModel: ObservableObject {
     
     init(repository: NetworkProduct = NetworkProduct()) {
         self.repository = repository
+    }
+    
+    func loadMoreData() {
+        if currentPage < pageCount {
+            currentPage += 1
+            repository.getProducts(searchTerm: searchTerm, pageNumber: currentPage,completion: completionHandler)
+        }
     }
     
     func refreshAllData(searchTerm:String?=nil) {
