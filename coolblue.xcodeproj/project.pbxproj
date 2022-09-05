@@ -21,6 +21,7 @@
 		D15CBDEF28C5E7F900FEB728 /* DeliverTomorrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDEE28C5E7F900FEB728 /* DeliverTomorrow.swift */; };
 		D15CBDF128C5E80C00FEB728 /* ReviewRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDF028C5E80C00FEB728 /* ReviewRating.swift */; };
 		D15CBDF328C5E82400FEB728 /* ReviewStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDF228C5E82300FEB728 /* ReviewStar.swift */; };
+		D15CBDF828C5E95500FEB728 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CBDF728C5E95500FEB728 /* ProductListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D15CBDEE28C5E7F900FEB728 /* DeliverTomorrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverTomorrow.swift; sourceTree = "<group>"; };
 		D15CBDF028C5E80C00FEB728 /* ReviewRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRating.swift; sourceTree = "<group>"; };
 		D15CBDF228C5E82300FEB728 /* ReviewStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStar.swift; sourceTree = "<group>"; };
+		D15CBDF728C5E95500FEB728 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		D15CBDED28C5E73F00FEB728 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D15CBDF728C5E95500FEB728 /* ProductListViewModel.swift */,
 				D15CBDEB28C5E72100FEB728 /* ProductItem.swift */,
 			);
 			path = ViewModel;
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15CBDF828C5E95500FEB728 /* ProductListViewModel.swift in Sources */,
 				D15CBDE128C5E4A500FEB728 /* ProductListModel.swift in Sources */,
 				D15CBDF128C5E80C00FEB728 /* ReviewRating.swift in Sources */,
 				D15CBDEC28C5E72100FEB728 /* ProductItem.swift in Sources */,

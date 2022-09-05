@@ -9,8 +9,21 @@ import SwiftUI
 
 struct ProductList: View {
     
+    @ObservedObject var viewModel : ProductListViewModel
+    
+    init(viewModel: ProductListViewModel = ProductListViewModel()) {
+        self.viewModel = viewModel
+    }
+    
     var body: some View {
-        Text("Hello")
+        List {
+            ForEach(viewModel.dataSource) { productItem in
+                ProductRow(productItem: productItem)
+            }
+            
+        }.onAppear {
+            viewModel.refreshAllData()
+        }
     }
 }
 struct ProductList_Previews: PreviewProvider {
