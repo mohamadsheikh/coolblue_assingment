@@ -11,7 +11,7 @@ import SwiftUI
 struct coolblueApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductList()
         }
     }
 }
